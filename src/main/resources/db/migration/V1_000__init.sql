@@ -1,0 +1,11 @@
+---- V1_000__init.sql
+--
+---- Create Admin User
+--CREATE USER admin WITH PASSWORD 'admin';
+--
+---- Grant All Privileges on Database
+--GRANT ALL PRIVILEGES ON DATABASE pokemon_db TO admin;
+--GRANT ALL PRIVILEGES ON SCHEMA public TO admin;
+
+---- Grant All Privileges on Schema (optional)
+---- GRANT ALL PRIVILEGES ON SCHEMA public TO admin;
